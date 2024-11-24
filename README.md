@@ -1,10 +1,7 @@
 # **Personal Portfolio Website** 
-> Access my portfolio using this link [PortFolio]().
-
 ## **Overview:**
 Welcome to my personal portfolio website! This website showcases my skills, projects, and experiences as a web developer, designer using HTML, CSS, and JavaScript. Here, you'll find a collection of my work, information about me, and ways to get in touch.
 
-## **Features:**
 ### **Home Page:** 
 An engaging landing page that introduces me and provides a brief overview of my skills and expertise.
 ### **About Me:** 
@@ -21,11 +18,8 @@ A portfolio section highlighting some of my most significant projects. Each proj
 Multiple ways to get in touch with me, including a contact form and links to my social media profiles and professional network profiles like LinkedIn.
 ### Technologies Used: 
 **Frontend:** HTML, CSS, JavaScript.
-### **Deployment:** 
-This website is hosted GitHub Pages and can be accessed at [PortFolio]().
-
 ## **How to Use:**
-Feel free to explore my portfolio by visiting [PortFolio](). You can navigate through different sections to learn more about me and my work. Don't hesitate to reach out if you have any questions, feedback, or potential collaboration opportunities.
+Feel free to explore my portfolio by visiting [PortFolio](https://github.com/rajput3006/Personal-Portfolio.git). You can navigate through different sections to learn more about me and my work. Don't hesitate to reach out if you have any questions, feedback, or potential collaboration opportunities.
 
 ## **License:**
 This portfolio website is open-source. You are welcome to fork, modify, or use this code for your own projects.
