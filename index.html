@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="phone.css" media="screen and (max-width: 1300px)">
+    <script src="index.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@900&family=Poppins:wght@400;500;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&family=Sorts+Mill+Goudy&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/51f17f962b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <nav id="navbar">
+     <ul id="sidemenu">
+           <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="#about">About</a></li>
+            <li class="item"><a href="#thirdSection">Education</a></li>
+            <li class="item"><a href="#fourthSection">Skills</a></li>
+            <li class="item"><a href="#certification">Certifications</a></li>
+            <li class="item"><a href="#sixthSection">Projects</a></li>
+            <li class="item"><a href="#seventhSection">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div id="home">
+        <div class="container">
+            <p class="first-para">HEY! I AM</p>
+            <h1 class="main-heading">Himani Rajput</h1>
+            <p class="second-para">I'm a <span id="element"></span></p>
+        </div>
+    </div>
+    <div id="about">
+        <div class="leftSection">
+            <img src="images/myimage.jpg" alt="myimage" id="myimage" height="400cm">
+        </div>
+        <div class="rightSection">
+            <h3>About Me</h3>
+            <p class="my-desc">I am a 2025 graduate, pursuing B-Tech in Information Technology  at Malwa Institute of Science and Technology,Indore. I am a person who always likes to learn something new. I have great interest in programming and web application.</p>
+            <p class="desc">Name:<span class="name">Himani Rajput</span></p>
+            <p class="desc">Date of birth:<span class="dob">June 30, 2003</span></p>
+            <p class="desc">Address:<span class="address">Ujjain, Madhya Pradesh India</span></p>
+            <p class="desc">Email:<span class="email">rajputhimani755@gmail.com</span></p>
+            <p class="desc">Phone:<span class="phone">+8963960086</span></p>
+
+            <btn class="resume-btn"><a href="images/himaniresume.pdf" target="_blank">Resume</a></btn>
+            </div>
+        </div>
+   
+    <section id="thirdSection">
+        <div class="heading-education">
+            <h3>Education</h3>
+            <p>Currently I am pursuing B-tech in Information Technology at  Malwa Institute of Science and Technology,Indore.</p>
+        </div>
+        <div id="education">
+            <div class="box" id="box1">
+                <i class="fa-solid fa-3x fa-graduation-cap"></i>
+                <h4>Bachelor's Degree</h4>
+                <span class="underline"></span>
+                <p>Information Technology</p>
+                <p>Malwa Institute of Science and Technology, Indore.</p>
+            </div>
+            <div class="box" id="box2">
+                <i class="fa-solid fa-3x fa-building-columns"></i>
+                <h4>Higher Secondary School Certificate</h4>
+                <span class="underline"></span>
+                <p>Physics, Chemistry, Math, Biology</p>
+                <p>Govt. School For Excellence Ujjain, Madhya Pradesh</p>
+            </div>
+            <div class="box" id="box3">
+                <i class="fa-solid fa-3x fa-school"></i>
+                <h4>Secondary School Certificate</h4>
+                <span class="underline"></span>
+                <p>Semi-English Medium</p>
+                <p>New National Public School Ujjain, Madhya Pradesh.</p>
+            </div>
+        </div>
+    </section>
+    <section id="fourthSection">
+        <div class="heading-skills">
+            <h3>Skills</h3>
+            <p>Learning new skills to build myself to the next level.</p>
+        </div>
+        <div id="skills">
+            <div class="html-logo skill_box"><img src="images/html_logo.png" alt="HTML"></a></div>
+            <div class="css-logo skill_box"><img src="images/css_logo.png" alt="CSS"></div>
+            <div class="js-logo skill_box"><img src="images/javascript_logo.png" alt="JavaScript"></div>
+            <div class="React skill_box"><img src="images/th.jpg" alt="React"></div>
+            <div class="py-logo skill_box"><img src="images/python_logo.png" alt="Python"></div>
+            
+            
+        </div>
+    </section>
+    <section id="certification">
+        <div class="heading-certification">
+            <h3>Certification</h3>
+            <p>Certification helps to build and gain deep knowledge about a course.</p>
+        </div>
+        <div class="newcontainer">
+            <div class="newbox1">
+                <img src="images/guviofficial_logo.jpg" alt="Guvi">
+            </div>
+            <div class="newbox2">
+                <h3>Genrative AI </h3>
+                <p>Issued on September 21</p>
+                <p> Credential ID n191uT8f73278ek2N6</p>
+                <a href="https://www.guvi.in/share-certificate/n191uT8f73278ek2N6_/view" target="_blank">
+                    <button class="btn">Show credential<i class="fa-solid fa-link"></i></button>
+                </a>
+            </div>
+        </div>
+        <div class="newcontainer">
+            <div class="newbox1">
+                <img src="images/Acmegrade.jpg" alt="Acmegrade">
+            </div>
+            <div class="newbox2">
+                <h3>Web development training</h3>
+                <p>Issued on Dec 2023</p>
+                <p>Credential ID NPTEL23CS44S53140470</p>
+                <a href="images/acmegrade certificate.jpg"
+                    target="_blank"><button class="btn">Show
+                        credential<i class="fa-solid fa-link"></i></button></a>
+            </div>
+        </div>
+        <div class="newcontainer">
+            <div class="newbox1">
+                <img src="images/unstop_logo.jpg" alt="Unstop">
+            </div>
+            <div class="newbox2">
+                <h3>TATA Crucible Campus Quiz 2024</h3>
+                <p>Issued September 2024</p>
+            <p>Credential ID b94db9c9-528e-4296-b149-f3a79b34803c</p>
+                <a href="https://unstop.com/certificate-preview/b94db9c9-528e-4296-b149-f3a79b34803c?utm_campaign=site-emails"
+                    target="_blank"><button class="btn">Show credential<i class="fa-solid fa-link"></i></button>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="sixthSection">
+        <div class="heading-projects">
+            <h1>Project</h1>
+            <h2>Youtube Transcript Summerizer</h2>
+             <p>This implementation provides a basic YouTube transcript summarizer using 
+                HTML, CSS, JavaScript, and Python. Users can enter a YouTube video URL, and the 
+                frontend sends a request to the backend, which fetches the transcript, summarizes 
+                it, and sends the summary back to the frontend for display</p>
+             <div class="link">  
+            <a href="https://github.com/rajput3006/youtube-transcript-summerizer.git" target="_blank">Project link</a>
+        </div> 
+        </div>
+        <div class="projects">
+            
+            <div class="project1">
+                <img src="images/Screenshot (394).png" height="280cm">
+                </div>
+            <div class="project2">
+                <img src="images/Screenshot (395).png" height="280cm" >
+                </div>
+            <div class="project3">
+                <img src="images/Screenshot (396).png" height="280cm" >
+                </div>
+            </div>
+    </section>
+    <section id="seventhSection">
+        <div class="heading-contact">
+            <h3>Contact Me</h3>
+            <p>If you have any query then please feel free to contact me from the below details.</p>
+        </div>
+        <div class="contact">
+            <div class="address details">
+                <a href="https://www.google.com/maps"
+                    target="_blank">
+                    <div class="box-circle"><i class="fa-solid fa-location-dot"></i></div>
+                </a>
+                <h4>Address</h4>
+                <p>Ujjain, Madhya Pradesh</p>
+            </div>
+            <div class="contact-number details">
+                <a href="" target="_blank">
+                    <div class="box-circle"><i class="fa-solid fa-phone"></i></div>
+                </a>
+                <h4>Contact Number</h4>
+                <p>+91-8963960086</p>
+            </div>
+            <div class="email-address details">
+                <a href="mailto:rajputhimani755@gmail.com" target="_blank">
+                    <div class="box-circle"><i class="fa-solid fa-envelope"></i></div>
+                </a>
+                <h4>Email Address</h4>
+                <p>rajputhimani755@gmail.com</p>
+            </div>
+            <div class="github details">
+                <a href="https://github.com/rajput3006" target="_blank">
+                    <div class="box-circle"><i class="fa-brands fa-square-github"></i></div>
+                </a>
+                <h4>Github</h4>
+                <p>https://github.com/rajput3006</a>
+            </div>
+        </div>
+    </section>
+    <section class="eightSection">
+        <div class="left">
+            
+        </div>
+        <div class="right">
+            <form name="submit-to-google-sheet">
+                <div class="name">
+                    <input type="text" name="Name" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="email">
+                    <input type="email" name="Email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="subject">
+                    <input type="text" name="Subject" id="name" placeholder="Subject" required>
+                </div>
+                <div class="message" required>
+                    <textarea name="Message" id="message" cols="30" rows="7" placeholder="Message"></textarea>
+                </div>
+                <div class="submit">
+                    <button class="btn">Send Message</button>
+                </div>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </section>
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h3>About</h3>
+                    <p>Thankyou for reading my portfolio.</p>
+                    <p>It is my honor to have you on my portfolio.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#thirdSection">Education</a></li>
+                        <li><a href="#fourthSection">Skills</a></li>
+                        <li><a href="#fifthSection">Certifications</a></li>
+                        <li><a href="#sixthSection">Projects</a></li>
+                        <li><a href="#seventhSection">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Have a Questions?</h3>
+                    <p><i class="fa-solid fa-location-dot"></i>
+                      Ujjain, Madhya Pradesh</p>
+                    <p><i class="fa-solid fa-phone"></i>+91-8963960086</p>
+                    <p class="email-id"><i class="fa-solid fa-envelope"></i>rajputhimani755</p>
+                </div>
+            </div>
+        </div>
+        <div class="follow">
+            <h3 style="color:white;">Follow me</h3>
+            <a href="https://www.linkedin.com/in/himani30/" target="_blank"><i
+                    class="fa-brands fa-linkedin"></i></a>
+            <a href="https://twitter.com" target="_blank"><i
+                    class="fa-brands fa-square-twitter"></i></a>
+            <a href="https://github.com/rajput3006" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i
+                    class="fa-brands fa-square-instagram"></i></a>
+            <h4>Copyright &copy; All right reserved!</h4>
+        </div>
+    </footer>
+    <scrip src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        
+          <script src="https://unpkg.com/scrollreveal"></script>
+</body>
+
+</html>
