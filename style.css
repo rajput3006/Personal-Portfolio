@@ -10,7 +10,7 @@
                           }
                           
                           body{
-                              background-image: url("Personal-Portfolio/images/simon-berger-twukN12EN7c-unsplash.jpg");
+                              background-image: url("images/simon-berger-twukN12EN7c-unsplash.jpg");
                              background-position: center;
                               background-repeat: no-repeat;
                               background-size: cover;
@@ -248,7 +248,7 @@
                           }
                           
                           #box2{
-                              background-image: url("../images/db_img.jpg");
+                              background-image: url("images/db_img.jpg");
                               background-position: center;
                               background-repeat: no-repeat;
                               background-size: cover;
@@ -256,7 +256,7 @@
                               
                           }
                           #box3{
-                              background-image: url("../images/school_img.jpg");
+                              background-image: url("images/school_img.jpg");
                               background-position: center;
                               background-repeat: no-repeat;
                               background-size: cover;
