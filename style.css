@@ -240,7 +240,7 @@
                           }
                           
                           #box1{
-                              background-image: "images/geca_img.jpeg"
+                              background-image: url("images/geca_img.jpeg");
                               background-position: center;
                               background-repeat: no-repeat;
                               background-size: cover;
